@@ -4,7 +4,7 @@
 echo 9OWM56vKeaoUEmex | git svn clone --no-auth-cache --username rsync svn://192.168.0.1/trunk trunk
 
 cd ask
-git branch aaa      #临时分支
+git branch aaa      #临时分支，保持主分支干净，减少不必要的麻烦
 git checkout aaa    #切换分支
 touch test.txt      #编辑
 git add .           #添加
